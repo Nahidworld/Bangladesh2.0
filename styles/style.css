@@ -29,6 +29,11 @@ body{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
 /* fonts */
 .fira-sans-fontfam{
     font-family: "Fira Sans", serif;
@@ -171,6 +176,7 @@ nav .nav-btn:hover{
 .vision .cards{
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 
 }
 .vision .card{
@@ -228,8 +234,6 @@ nav .nav-btn:hover{
     margin-bottom: 32px;
 }
 .news .posts{
-    padding: 48px;
-    
     
 }
 .news .card-1{
@@ -283,4 +287,64 @@ nav .nav-btn:hover{
 }
 .posts .card-3{
     margin-top:24px;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+/* donate styles */
+.donate{
+    margin: 80px 160px;
+}
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ce;
+}
+.donate .title{
+    margin-bottom: 24px;
+}
+.donate .description{
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.donate .cards{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.donate .cards .card{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #fff;
+}
+.donate #card-2{
+    background-color: #C6E4D6;
+}
+.donate .card:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+input{
+    margin-left: 284px;
+    margin-right: 284px;
+    margin-bottom: 32px;
+    width: 1032px;
+    max-height: 64px;
+    padding: 20px 40px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate-btn{
+    background-color: #006A50;
+    color: #fff;
+    padding: 17opx 32px;
 }
