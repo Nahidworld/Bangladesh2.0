@@ -17,6 +17,7 @@
 }
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F5F5F5;
 }
 .section-primary{
     margin: auto 160px;
@@ -145,4 +146,32 @@ nav .nav-btn:hover{
     padding: 80px 60px;
     width: 474px;
     height: 400px;
+}
+
+/* visison styles */
+.vision{
+    margin: 80px 160px;
+}
+.vision .title{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.vision .desciption{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+}
+
+.vision .cards{
+    display: flex;
+    gap: 24px;
+}
+.vision .card{
+    background-color: #C6E4D6;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    border-radius: 16px;
 }
