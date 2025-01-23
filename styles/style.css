@@ -331,7 +331,7 @@ nav .nav-btn:hover{
     background-color: #006A50;
     color: #fff;
 }
-input{
+.donate input{
     margin-left: 284px;
     margin-right: 284px;
     margin-bottom: 32px;
@@ -347,4 +347,51 @@ input{
     background-color: #006A50;
     color: #fff;
     padding: 17opx 32px;
+}
+
+/* newsletter styles */
+.newsletter .subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.newsletter{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: auto 160px;
+    padding: 80px 100px; 
+}
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter .title{
+    margin-bottom: 16px;
+    color: #0E0E0E; 
+}
+.newsletter .subtitle{
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7); 
+}
+.subscribe input{
+    margin-left: 425px;
+    padding: 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border:none;
+    border-radius: 8px 0px 0px 8px;
+    width: 750px;
+}
+.subscribe .sub-btn{
+    margin-right: 425px;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border: none;
+    font-size: 18px;
+    border-radius: 0px 8px 8px 0px;
+    color: #fff;
 }
