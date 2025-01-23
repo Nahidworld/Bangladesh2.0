@@ -34,6 +34,9 @@ body{
     font-size: 40px;
     color: #0E0E0E;
 }
+button:hover{
+    background-color: red;
+}
 /* fonts */
 .fira-sans-fontfam{
     font-family: "Fira Sans", serif;
@@ -216,6 +219,33 @@ nav .nav-btn:hover{
     background-color: #f84242;
 }
 
+/* quote styles */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote-section{
+    /* width: 1280px; */
+    margin: 0px 160px;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.quote-icon{
+    position:absolute;
+}
+.quote-text{
+    margin-bottom: 12px;
+}
+.quote .title{
+    margin-bottom: 4px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
 /* news styles */
 .news{
     margin: 80px 160px;
@@ -348,6 +378,9 @@ nav .nav-btn:hover{
     color: #fff;
     padding: 17opx 32px;
 }
+.donate-btn:hover{
+    background-color: #024131;
+}
 
 /* newsletter styles */
 .newsletter .subscribe{
@@ -394,4 +427,7 @@ nav .nav-btn:hover{
     font-size: 18px;
     border-radius: 0px 8px 8px 0px;
     color: #fff;
+}
+.subscribe .sub-btn:hover{
+    background-color: #023d2e;
 }
